@@ -1,0 +1,100 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand img {
+    margin-top: -10px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    color: #ffffff;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f8f9fa;
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    max-height: 150px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0056b3;
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #004080;
+
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #004080;
+    color: #ffffff;
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+    max-width: 1200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
